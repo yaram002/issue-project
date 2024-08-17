@@ -1,0 +1,367 @@
+.vectorIcon {
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    width: 40.6px;
+    height: 53.6px;
+  }
+  .oneSmallLorem {
+    margin: 0;
+    font-weight: 500;
+  }
+  .oneBigStepLorem {
+    margin: 0;
+  }
+  .oneSmallLoremContainer {
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-size: 45px;
+    line-height: 40px;
+    z-index: 2;
+    font-family: var(--font-poppins);
+  }
+  .loremIpsumLorem {
+    margin: 0;
+    top: 203px;
+    left: 30px;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: var(--font-roboto);
+    display: inline-block;
+    width: 465px;
+    height: 50px;
+    z-index: 2;
+  }
+  .div,
+  .loremIpsumLorem,
+  .whiteBg {
+    position: absolute;
+  }
+  .whiteBg {
+    top: 300px;
+    left: 348px;
+    border-radius: var(--br-19xl) 0 0 var(--br-19xl);
+    background-color: var(--color-white);
+    width: 901px;
+    height: 875px;
+  }
+  .div {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(255, 94, 20, 0.24),
+      transparent
+    );
+    z-index: 1;
+  }
+  .title,
+  .yourEmail {
+    font-family: var(--font-inter);
+    text-align: left;
+  }
+  .title {
+    position: absolute;
+    top: 528px;
+    left: 622px;
+    font-size: var(--font-size-sm);
+    line-height: 18px;
+    color: var(--color-midnightblue-100);
+    display: flex;
+    align-items: flex-end;
+    min-width: 36px;
+    z-index: 2;
+  }
+  .yourEmail {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 125%;
+    color: var(--color-gray);
+    display: inline-block;
+    max-width: 100%;
+  }
+  .icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .inputField,
+  .title1 {
+    position: absolute;
+    left: 622px;
+    display: flex;
+    z-index: 2;
+  }
+  .inputField {
+    top: 552px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 379px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-base) 15px;
+    gap: var(--gap-3xs);
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .title1 {
+    top: 630px;
+    font-size: var(--font-size-sm);
+    line-height: 18px;
+    font-family: var(--font-inter);
+    color: var(--color-midnightblue-100);
+    text-align: left;
+    align-items: flex-end;
+    min-width: 65px;
+  }
+  .icon1,
+  .text {
+    position: relative;
+  }
+  .text {
+    align-self: stretch;
+    width: 291px;
+    font-size: var(--font-size-base);
+    line-height: 125%;
+    font-family: var(--font-inter);
+    color: var(--color-gray);
+    text-align: right;
+    display: none;
+    align-items: flex-end;
+  }
+  .icon1 {
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .inputFieldChild {
+    height: 6px;
+    width: 76px;
+    position: relative;
+    z-index: 3;
+  }
+  .inputField1 {
+    position: absolute;
+    top: 654px;
+    left: 622px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 379px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--padding-base);
+    gap: var(--gap-3xs);
+    z-index: 2;
+  }
+  .button {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 125%;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+    display: inline-block;
+    min-width: 47px;
+  }
+  .buttonPrimary,
+  .forgotPassword {
+    position: absolute;
+    left: 622px;
+    display: flex;
+    justify-content: center;
+    width: 379px;
+    z-index: 2;
+  }
+  .buttonPrimary {
+    top: 732px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-midnightblue-100);
+    height: 56px;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 152px;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+  .forgotPassword {
+    top: 810px;
+    font-size: var(--font-size-sm);
+    line-height: 18px;
+    font-family: var(--font-inter);
+    color: rgba(0, 22, 89, 0.7);
+    text-align: center;
+    align-items: flex-end;
+  }
+  .tabChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-tomato);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .signUp {
+    position: absolute;
+    top: 9px;
+    left: 67.6px;
+    font-size: var(--font-size-sm);
+    line-height: 18px;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-midnightblue-100);
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    width: 54.8px;
+    min-width: 54.8px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frameChild,
+  .tabItem {
+    position: absolute;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+  }
+  .tabItem {
+    top: 3px;
+    left: 191.1px;
+    width: 184.7px;
+    height: 30px;
+    display: none;
+  }
+  .frameChild {
+    top: 30px;
+    left: 184.7px;
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+  }
+  .signIn1 {
+    position: absolute;
+    top: 6px;
+    left: 62.3px;
+    font-size: var(--font-size-sm);
+    line-height: 18px;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-midnightblue-100);
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    width: 61.2px;
+    z-index: 2;
+  }
+  .rectangleParent {
+    position: absolute;
+    top: 3px;
+    left: 190px;
+    width: 184.7px;
+    height: 30px;
+    white-space: nowrap;
+  }
+  .tab {
+    position: absolute;
+    top: 470px;
+    left: 622px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-tomato);
+    width: 379px;
+    height: 36px;
+    z-index: 2;
+  }
+  .background {
+    margin: 0;
+    position: absolute;
+    top: -300px;
+    left: 76px;
+    width: 2085px;
+    height: 1627px;
+  }
+  .housepngIcon {
+    position: absolute;
+    top: 380px;
+    left: 0;
+    width: 652px;
+    height: 419px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .backgroundParent {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 115px;
+    width: 1325px;
+  }
+  .error,
+  .error1 {
+    position: absolute;
+    top: 314px;
+    left: 813px;
+    line-height: 125%;
+    font-weight: 500;
+    color: var(--color-crimson);
+    display: none;
+  }
+  .error1 {
+    top: 416px;
+  }
+  .signIn {
+    width: 100%;
+    height: 875px;
+    position: relative;
+    background-color: #ff5000;
+    overflow: hidden;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-smi);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 767px) {
+    .oneSmallLoremContainer {
+      font-size: 36px;
+      line-height: 32px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .oneSmallLoremContainer {
+      font-size: 27px;
+      line-height: 24px;
+    }
+    .loremIpsumLorem {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+  
+  
+
+
+  

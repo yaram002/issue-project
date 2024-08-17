@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+
+.div{
+  margin: 40%;
+    background-Color: #FF5000;
+    color: white;
+    width: 900px;
+    height: 1027px;
+  position:relative;
+  };
+
+.div2{
+  background-Color:black;
+    border: 70px black;
+width: 100px;
+height: 100px;
+margin: 800px;
+
+  };
+
+ .frm{
+border: 4px solid red;
+width: 600px;
+height: 600px;
+margin: 50%;
+ }

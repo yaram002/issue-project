@@ -1,0 +1,5 @@
+1: run npm i in root folder and server folder for node module.
+2: add your mongodb uri in env variable.
+3:insert documenyt in  add issu route.
+all of design copy from react bootstrap
+i get help from chat gpt for fix error and other think
